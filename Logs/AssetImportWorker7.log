@@ -1,0 +1,247 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.21f1c1 (08fa194de70f) revision 588313'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/Asset/MyOdysseyWord
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+61268
+Successfully changed project path to: D:/Asset/MyOdysseyWord
+D:/Asset/MyOdysseyWord
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35040] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 365474507 [EditorId] 365474507 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UB47RJK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35040] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 365474507 [EditorId] 365474507 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UB47RJK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 113.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Asset/MyOdysseyWord/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014476 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1124 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1766ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1551ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (1387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1184ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017194 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Asset\MyOdysseyWord\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Asset\MyOdysseyWord\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1038ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.7 MB). Loaded Objects now: 5510.
+Memory consumption went from 270.7 MB to 269.0 MB.
+Total: 3.780100 ms (FindLiveObjects: 0.368700 ms CreateObjectMapping: 0.263000 ms MarkObjects: 2.830800 ms  DeleteObjects: 0.316800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34922.950743 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Materials/PolygonMiniFantasyCharacters_01_B.mat
+  artifactKey: Guid(bd447d9c14c590947b6d77f5243fe951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Materials/PolygonMiniFantasyCharacters_01_B.mat using Guid(bd447d9c14c590947b6d77f5243fe951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ef322032e8638fb81caf6139827ca1') in 0.123417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.933285 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_Axe_01.fbx
+  artifactKey: Guid(4cfc1dec98dca4348b719df9f5de8242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_Axe_01.fbx using Guid(4cfc1dec98dca4348b719df9f5de8242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cba7cae41adaa77141e8998838c283a') in 0.042876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.183588 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_Bomb_01.fbx
+  artifactKey: Guid(6af7306dcdd4b984892f50a7007124b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_Bomb_01.fbx using Guid(6af7306dcdd4b984892f50a7007124b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2df0a67dc3674500140602ee49de16f') in 0.015977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.233803 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_Broom_01.fbx
+  artifactKey: Guid(3b887020c47cc8845b234a339a50258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_Broom_01.fbx using Guid(3b887020c47cc8845b234a339a50258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfc860656db9e86f706f8dbf6852b5f') in 0.015138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_MusketPistol_01.fbx
+  artifactKey: Guid(4ef6e353015d4814dbe9af0f3f9ead92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_MusketPistol_01.fbx using Guid(4ef6e353015d4814dbe9af0f3f9ead92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ef22b02f8fa8a524e340040dc6099c') in 0.014190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_Katana_01.fbx
+  artifactKey: Guid(daaf1aa9ebec9be46a25a5a154c040e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_Katana_01.fbx using Guid(daaf1aa9ebec9be46a25a5a154c040e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917ff89c28b33d521284db50dd31bdf6') in 0.013227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_GoblinWarBanner_01.fbx
+  artifactKey: Guid(802167d1a0cfb01459cac07a4be3d019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_GoblinWarBanner_01.fbx using Guid(802167d1a0cfb01459cac07a4be3d019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957260f952d57b4d0fc484516aaf989f') in 0.015533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_Bow_01.fbx
+  artifactKey: Guid(ed92bb92b111261458407f7400e46cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_Bow_01.fbx using Guid(ed92bb92b111261458407f7400e46cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c682c39fa78a2af2aafc178479e9c7') in 0.014145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.647843 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_Sai_01.fbx
+  artifactKey: Guid(a39ee7e4de78b204d8d103cd4b1b70d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_Sai_01.fbx using Guid(a39ee7e4de78b204d8d103cd4b1b70d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2654e61d79a56de9d79908dd68080733') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266058 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_ShieldHalf_01.fbx
+  artifactKey: Guid(4c99ffcc6b9a7ef4b981b787fa65e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_ShieldHalf_01.fbx using Guid(4c99ffcc6b9a7ef4b981b787fa65e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd6664536b7a28888c5d21740d449c3') in 0.012509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013251 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_ShieldViking_01.fbx
+  artifactKey: Guid(f10cd5c2e676b4d4e94fcb7a9079e6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_ShieldViking_01.fbx using Guid(f10cd5c2e676b4d4e94fcb7a9079e6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e601afafeb2cc020c7ad8d66205bfd36') in 0.011501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013883 seconds.
+  path: Assets/PolygonMiniFantasyCharacters/Models/Prop_Sword_01.fbx
+  artifactKey: Guid(41c02276a422f2b4ea68f0df2a4653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMiniFantasyCharacters/Models/Prop_Sword_01.fbx using Guid(41c02276a422f2b4ea68f0df2a4653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3c1c5e0c587ad51b0068a177fe412e') in 0.010830 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
